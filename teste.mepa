@@ -1,0 +1,30 @@
+        INPP  
+        AMEM   1
+        DSVS   L0
+L1:     ENPR   1
+        CRVL   1,-6
+        CRVL   1,-5
+        SOMA  
+        ARMZ   1,-7
+        DSVS   L2
+L2:     NADA  
+        RTPR   2
+L0:     ENPR   1
+        AMEM   2
+        CRCT   10
+        ARMZ   1,0
+        CRCT   20
+        ARMZ   1,1
+        AMEM   1
+        CRVL   1,0
+        CRVL   1,1
+        CHPR   L1,1
+        ARMZ   0,0
+        CRST   "Resultado: "
+        IMPS   12
+        CRVL   0,0
+        IMPR  
+        DMEM   2
+        DMEM   1
+        PARA  
+        FIM   
